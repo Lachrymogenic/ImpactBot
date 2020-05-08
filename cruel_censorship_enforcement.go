@@ -21,6 +21,7 @@ var censor = map[string]Censorship{
 
 var bannedNicks = []string{
 	"loli",
+	"nigger",
 }
 
 func onMessageSent3(session *discordgo.Session, m *discordgo.MessageCreate) {
